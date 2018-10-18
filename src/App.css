@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 60px;
+  padding: 5px;
+  color: white;
+}
+
+.App-body {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0px;
+  bottom: 0;
+  width:300;
+  height:100%
+}
+
+

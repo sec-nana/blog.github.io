@@ -1,0 +1,53 @@
+.Toolbar {
+    position: fixed;
+    right: 40px;
+    top: 50px;
+    width: 350px;
+    height: 30px;
+    background-color:#222;
+    border: 2px solid #888;
+    border-radius: 7px;
+    padding: 2px;
+    z-index: 10;
+}
+
+.Toolbar > .ZoomIn,
+.Toolbar > .ZoomOut {
+    border: 1px solid #888;
+    border-radius: 5px;
+    background-color: #FE8;
+    width: 50px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    margin: 2px;
+}
+
+.Toolbar > .PageInput{
+    width: 25px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    margin: 2px;
+    text-align: center;
+    height:18px;
+}
+.Toolbar > .NumPages {
+    width: 25px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    margin: 2px;
+    text-align: center;
+    height:18px;
+}
+
+.Toolbar > .ZoomPercent {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin: 2px;
+}
